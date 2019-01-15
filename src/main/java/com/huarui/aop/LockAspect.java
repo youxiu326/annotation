@@ -21,6 +21,9 @@ import java.util.concurrent.locks.ReentrantLock;
 public class LockAspect {
 
     /**
+     *
+     * 博客: https://www.cnblogs.com/dolphin0520/p/3923167.html
+     *
      * 思考：为什么不用synchronized
      * service 默认是单例的，并发下lock只有一个实例
      */
